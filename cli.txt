@@ -1,0 +1,1 @@
+python demo/inferencer_demo.py tests/data/segbig/3_person_4_segmentation.jpg --pose2d yoloxpose_s_8xb32-300e_coco-640.py --pose2d-weights yoloxpose_s_8xb32-300e_coco-640-56c79c1f_20230829.pth --pose3d human3d --vis-out-dir vis_results/human3d/3_person_4_segmentationt.jpg --device cpu
